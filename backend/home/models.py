@@ -9,3 +9,8 @@ class Sghjt(models.Model):
         null=True,
         blank=True,
     )
+
+
+class Cvdd123(models.Model):
+    "Generated Model"
+    ncmdkd = models.BigIntegerField()

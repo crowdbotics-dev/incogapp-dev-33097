@@ -1,5 +1,5 @@
 from django.contrib.auth import get_user_model
-from home.models import Sghjt
+from home.models import Cvdd123, Sghjt
 from django.http import HttpRequest
 from django.utils.translation import ugettext_lazy as _
 from allauth.account import app_settings as allauth_settings
@@ -79,4 +79,10 @@ class PasswordSerializer(PasswordResetSerializer):
 class SghjtSerializer(serializers.ModelSerializer):
     class Meta:
         model = Sghjt
+        fields = "__all__"
+
+
+class Cvdd123Serializer(serializers.ModelSerializer):
+    class Meta:
+        model = Cvdd123
         fields = "__all__"

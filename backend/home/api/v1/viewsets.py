@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from home.models import Sghjt
-from .serializers import SghjtSerializer
+from home.models import Cvdd123, Sghjt
+from .serializers import Cvdd123Serializer, SghjtSerializer
 from rest_framework import authentication
 from rest_framework.authtoken.serializers import AuthTokenSerializer
 from rest_framework.viewsets import ModelViewSet, ViewSet
@@ -41,3 +41,12 @@ class SghjtViewSet(viewsets.ModelViewSet):
         authentication.TokenAuthentication,
     )
     queryset = Sghjt.objects.all()
+
+
+class Cvdd123ViewSet(viewsets.ModelViewSet):
+    serializer_class = Cvdd123Serializer
+    authentication_classes = (
+        authentication.SessionAuthentication,
+        authentication.TokenAuthentication,
+    )
+    queryset = Cvdd123.objects.all()
