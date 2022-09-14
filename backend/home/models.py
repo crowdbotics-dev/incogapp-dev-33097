@@ -9,7 +9,3 @@ class Sghjt(models.Model):
         null=True,
         blank=True,
     )
-    ghtytu = models.BigIntegerField(
-        null=True,
-        blank=True,
-    )
