@@ -1,0 +1,48 @@
+[
+    {
+        "category": "NAME",
+        "purposes": [
+            "THIRD_PARTY_ADVERTISING"
+        ],
+        "data_protections": [
+            "DATA_LINKED_TO_YOU"
+        ]
+    },
+    {
+        "category": "EMAIL_ADDRESS",
+        "purposes": [
+            "DEVELOPERS_ADVERTISING"
+        ],
+        "data_protections": [
+            "DATA_NOT_LINKED_TO_YOU"
+        ]
+    },
+    {
+        "category": "PHONE_NUMBER",
+        "purposes": [
+            "PRODUCT_PERSONALIZATION"
+        ],
+        "data_protections": [
+            "DATA_LINKED_TO_YOU",
+            "DATA_USED_TO_TRACK_YOU"
+        ]
+    },
+    {
+        "category": "OTHER_CONTACT_INFO",
+        "purposes": [
+            "ANALYTICS"
+        ],
+        "data_protections": [
+            "DATA_NOT_LINKED_TO_YOU"
+        ]
+    },
+    {
+        "category": "HEALTH",
+        "purposes": [
+            "DEVELOPERS_ADVERTISING"
+        ],
+        "data_protections": [
+            "DATA_NOT_LINKED_TO_YOU"
+        ]
+    }
+]
